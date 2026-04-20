@@ -1,0 +1,45 @@
+# Environment variables (VERY IMPORTANT)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.envs/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Chroma vector database (can be large)
+chroma_db/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Pip cache
+pip-wheel-metadata/
+
+# Build files
+dist/
+build/
+*.egg-info/
