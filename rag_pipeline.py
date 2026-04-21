@@ -45,7 +45,7 @@ class NewsRAG:
 
         context = "\n\n".join([doc.page_content for doc in results])
 
-        # Simple AI-style explanation
+        
         answer = f"""
 Based on the latest news articles, here are the key insights about your question:
 

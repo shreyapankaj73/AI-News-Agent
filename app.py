@@ -2,7 +2,7 @@ import streamlit as st
 from news_fetcher import fetch_news
 from rag_pipeline import NewsRAG
 
-# Initialize RAG system
+
 rag = NewsRAG()
 
 st.set_page_config(page_title="AI News Research Agent", layout="wide")
@@ -10,10 +10,10 @@ st.set_page_config(page_title="AI News Research Agent", layout="wide")
 st.title("🧠 AI News Research Agent")
 st.write("Search for the latest news and ask questions about them.")
 
-# Topic input
+
 topic = st.text_input("Enter a topic (AI, startups, business, etc.)")
 
-# Fetch news button
+
 if st.button("Fetch News"):
 
     if topic:
@@ -43,7 +43,7 @@ if st.button("Fetch News"):
                 st.divider()
 
 
-# Ask question section
+
 st.subheader("Ask Questions About the News")
 
 question = st.text_input("Example: What are the latest AI trends?")
