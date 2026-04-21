@@ -22,3 +22,19 @@ An AI-powered app that:
 
 ---
 
+## ▶️ How to Run
+
+1. Clone the repository
+git clone https://github.com/shreyapankaj73/AI-News-Agent.git
+
+2. Navigate to the folder
+cd AI-News-Agent
+
+3. Install dependencies
+pip install -r requirements.txt
+
+4. Add your API key in a .env file
+NEWS_API_KEY=your_newsapi_key_here
+
+5. Run the app
+python -m streamlit run app.py
